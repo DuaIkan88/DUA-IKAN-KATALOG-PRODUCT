@@ -252,7 +252,7 @@
 
             <div class="product-card">
                 <div class="img-box">
-                    <img src="Banana Crunch.jpg"Produk 3">
+                    <img src="Banana Crunch.jpg" alt="Produk 3">
                 </div>
                 <div class="details">
                     <h3>Banana Crunch</h3>
