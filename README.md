@@ -212,7 +212,7 @@
 
             .product-grid {
                 grid-template-columns: 1fr; /* 1 kolom di HP */
-                padding: 0 20px;
+                padding: 0 50px;
             }
         }
     </style>
