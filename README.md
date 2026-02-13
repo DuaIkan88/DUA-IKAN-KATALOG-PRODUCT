@@ -132,8 +132,8 @@
         }
 
         .img-box {
-            height: 650px;
-            width: 300%;
+            height: 350px;
+            width: 100%;
             overflow: hidden;
             position: relative;
         }
@@ -191,7 +191,7 @@
         }
 
         /* Responsive */
-        @media (max-width: 300px) {
+        @media (max-width: 600px) {
             header h1 { font-size: 1.8rem; }
             .social-btn { width: 100%; justify-content: center; }
         }
@@ -271,7 +271,7 @@
 
             <div class="product-card">
                 <div class="img-box">
-                    <img src="Banana Crunch.jpg" alt="Produk 3">
+                    <img src="Banana Crunch.jpg"Produk 3">
                 </div>
                 <div class="details">
                     <h3>Banana Crunch</h3>
