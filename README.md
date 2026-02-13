@@ -195,6 +195,26 @@
             header h1 { font-size: 1.8rem; }
             .social-btn { width: 100%; justify-content: center; }
         }
+
+         /* --- RESPONSIVE MEDIA QUERIES --- */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            nav {
+                display: none; /* Simplifikasi menu mobile untuk demo ini */
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .product-grid {
+                grid-template-columns: 1fr; /* 1 kolom di HP */
+                padding: 0 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -400,6 +420,27 @@
             // Buka WhatsApp di tab baru
             window.open(linkWA, '_blank');
         }
+    </script>
+
+    <script>
+        // Simple script untuk toggle menu di mobile (Opsional)
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            if(nav.style.display === 'block') {
+                nav.style.display = 'none';
+            } else {
+                nav.style.display = 'block';
+                nav.style.position = 'absolute';
+                nav.style.top = '70px';
+                nav.style.right = '0';
+                nav.style.width = '100%';
+                nav.style.background = '#1a1a1a';
+                nav.style.textAlign = 'center';
+                nav.style.padding = '20px';
+            }
+        });
     </script>
 
 </body>
