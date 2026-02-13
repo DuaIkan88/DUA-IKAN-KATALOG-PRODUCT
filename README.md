@@ -191,7 +191,7 @@
         }
 
         /* Responsive */
-        @media (max-width: 600px) {
+        @media (max-width: 300px) {
             header h1 { font-size: 1.8rem; }
             .social-btn { width: 100%; justify-content: center; }
         }
@@ -212,7 +212,7 @@
 
             .product-grid {
                 grid-template-columns: 1fr; /* 1 kolom di HP */
-                padding: 0 50px;
+                padding: 0 20px;
             }
         }
     </style>
