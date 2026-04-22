@@ -133,8 +133,8 @@
         }
 
         .img-box {
-            height: 300px;
-            width: 100%;
+            height: 350px;
+            width: 200%;
             overflow: hidden;
             position: relative;
         }
