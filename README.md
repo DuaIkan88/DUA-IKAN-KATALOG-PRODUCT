@@ -134,14 +134,14 @@
 
         .img-box {
             height: 350px;
-            width: 200%;
+            width: 100%;
             overflow: hidden;
             position: relative;
         }
 
         .img-box img {
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
         }
